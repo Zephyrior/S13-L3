@@ -10,7 +10,7 @@ public class DettagliSim {
         for (int i = 0; i < sim.getChiamate().length; i++){
             Chiamata corrente = sim.getChiamate()[i];
             if(corrente!=null){
-                System.out.println("numero:" + corrente.getChiamata() + " - durata:" + corrente.getDurata());
+                System.out.println("numero: " + corrente.getChiamata() + " - durata: " + corrente.getDurata() + " mins.");
             }
         }
     }
